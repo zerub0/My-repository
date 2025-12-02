@@ -1,0 +1,9 @@
+div {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}

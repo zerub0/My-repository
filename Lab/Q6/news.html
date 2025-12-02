@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Layout</title>
+    <style>
+        .container {
+            width: 900px;
+            margin: 0 auto;
+            background: #f4f4f4;
+            padding: 10px;
+            overflow: auto;
+        }
+
+        .sidebar {
+            width: 250px;
+            float: left;
+            background: tomato;
+            padding: 10px;
+        }
+
+        .main-content {
+            width: 610px;
+            float: right;
+            background: gold;
+            padding: 10px;
+        }
+
+        footer {
+            background: grey;
+            padding: 10px;
+            clear: both; /* makes the footer sit below both columns */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Links and extra info.</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Main Article</h2>
+            <p>News content goes here.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 News Corp
+    </footer>
+</body>
+</html>

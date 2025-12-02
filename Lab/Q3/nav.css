@@ -1,0 +1,22 @@
+ ul {
+  list-style: none;
+}
+ nav > ul > li {
+  border: 1px solid black;  
+  display: inline-block;
+}
+
+nav ul li:first-child a {
+  font-weight: bold;
+}
+
+
+ a:hover {
+  color: red;
+}
+
+
+a[class="active"] {
+  background: lightgray;
+  padding: 4px 8px;
+}

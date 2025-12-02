@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        nav { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            background: black; 
+            padding: 10px; 
+            z-index: 100; 
+        }
+        nav a { 
+            color: white;
+            margin-right: 15px; 
+            text-decoration: none; 
+        }
+        .sticky { 
+            position: sticky; 
+            top: 60px; 
+            background: whitesmoke; 
+            padding: 10px;         
+        }
+        button { 
+            position: fixed; 
+            bottom: 20px; 
+            right: 20px; 
+            padding: 10px; 
+            background: #333; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+        }
+        .content { 
+            padding: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Articles</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="content">
+        <div class="sticky">
+        <h2>Sticky Header</h2>
+        </div>
+        <p>Scroll down to see sticky header and Back to Top button.</p>
+        <p style="margin-bottom: 1000px;">More content...</p>
+    </div>
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to Top</button>
+</body>
+</html>

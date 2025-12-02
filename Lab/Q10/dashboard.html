@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            grid-template-columns: 200px 1fr; 
+            grid-template-rows: 60px 1fr 40px;
+            height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        aside {
+            grid-area: sidebar;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        main {
+            grid-area: main;
+            padding: 20px;
+            background: #fff;
+        }
+
+        footer {
+            grid-area: footer;
+            background: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>Dashboard Header</header>
+    <aside>Sidebar<br>Links<br>Menu</aside>
+    <main>Main Content Area</main>
+    <footer>© 2025 Admin Dashboard</footer>
+</div>
+
+</body>
+</html>

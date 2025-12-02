@@ -1,0 +1,8 @@
+.hero{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px lightblue;
+}
